@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Netlibox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/din4hwr.css" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: "Proxima Nova", sans-serif;
+        }
+        
+        .header {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        section {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        
+        h1 {
+            font-size: 27px;
+        }
+        
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="header text-center">
+            <h1>Blog</h1>
+        </div>
+        {{#each entries}}
+        <section>
+            <div class="content">
+                {{{ this.body }}}
+            </div>
+        </section>
+        {{/each}}
+    </div>
+</body>
+
+</html>
