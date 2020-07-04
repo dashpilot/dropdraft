@@ -1,3 +1,6 @@
+[Settings]
+  DBX_ACCESS_TOKEN = "Create an app in Dropbox and copy the access token here"
+
 [build]
   functions = "public/functions"
   publish = "public"
