@@ -1,6 +1,6 @@
 # <img src="img/dropbox.png" alt="Dropbox" width="30"/> Dropdraft - Dropbox as a blogging platform
 
-Use Netlify + Dropbox as a blogging platform. Every time you add or update a markdown file in Dropbox, Netlify automatically pulls the data from your Dropbox and builds a new version of your site. For the syncing I used [Netlibox](https://github.com/jimniels/netlibox) by Jim Nielsen. The example uses a simple handlebars template to render the markdown files, but you can edit scripts/build.js to work with your preferred static site generator or template engine.
+Use Netlify + Dropbox as a blogging platform. Every time you add or update a markdown file in Dropbox, Netlify automatically pulls the data from your Dropbox and builds a new version of your site. For the syncing I used [Netlibox](https://github.com/jimniels/netlibox) by Jim Nielsen. The included example uses a simple handlebars template to render the markdown files, but you can edit scripts/build.js to work with your preferred static site generator or template engine.
 
 Works with any app that supports Markdown, like:
 
