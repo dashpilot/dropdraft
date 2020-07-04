@@ -60,5 +60,5 @@ The apps below have no native Dropbox integration, but allow you to export singl
 - :fountain_pen: iA Writer (Mac/Windows/iOS/Android)
 
 ## Acknowledgements
-Thanks to Jim Nielsen for creating the original Netlibox. Read Jim Nielsen's [original post about Netlibox (Jekyll-based)](https://www.netlify.com/blog/2018/10/15/combining-netlify-with-dropbox-for-a-one-click-publishing-process/) for some more background on how the syncing works.
+Thanks to Jim Nielsen for creating Netlibox, on which the syncing part is based. Read Jim Nielsen's [original post about Netlibox (Jekyll-based)](https://www.netlify.com/blog/2018/10/15/combining-netlify-with-dropbox-for-a-one-click-publishing-process/) for some more background on how the syncing works.
 
