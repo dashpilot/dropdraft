@@ -3,6 +3,6 @@
   NETLIFY_BUILD_HOOK_URL = "Create a build hook in Netlify and copy the URL here"
 
 [build]
-  functions = "./public/functions"
-  publish = "./public"
+  functions = "public/functions"
+  publish = "public"
   command = "npm run build"
