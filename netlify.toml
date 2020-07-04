@@ -2,7 +2,6 @@
   functions = "public/functions"
   publish = "public"
   command = "npm run build"
-  environment = { DBX_ACCESS_TOKEN = "Your Dropbox access token", NETLIFY_BUILD_HOOK_URL = "Netlify build hook" }
 
 [build.environment]
   DBX_ACCESS_TOKEN = "Create an app in Dropbox and copy the access token here"
