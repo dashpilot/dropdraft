@@ -3,6 +3,6 @@
   publish = "public"
   command = "npm run build"
 
-[build.environment]
+[template.environment]
   DBX_ACCESS_TOKEN = "Create an app in Dropbox and copy the access token here"
   NETLIFY_BUILD_HOOK_URL = "Create a build hook in Netlify and copy the URL here"
