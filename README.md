@@ -18,10 +18,6 @@ I wanted a system that is:
 
 In comes Dropbox, which is supported by most apps, can be synced in realtime and although it proprietary as well, it does not tie you to a certain content format.
 
-## Automatic Setup (currently does not work yet)
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/dashpilot/dropdraft"><img src="https://www.netlify.com/img/deploy/button.svg" /></a>
-
 ## Manual Setup
 
 ### 1. Fork this repo and create site in Netlify
@@ -52,6 +48,10 @@ If you got stuck somewhere, here's Jim's original cheat sheet:
 ![final-view](https://user-images.githubusercontent.com/1316441/46992107-c9592f00-d0c5-11e8-8a1c-fa751765a402.png)
 
 Once you've done all this, you should be able to create a markdown file in Dropbox and see it get deployed to your Netlify site's URL.
+
+## Automatic Setup (currently does not work yet)
+
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/dashpilot/dropdraft"><img src="https://www.netlify.com/img/deploy/button.svg" /></a>
 
 ## List of apps that are compatible with DropDraft
 
